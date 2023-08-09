@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int i,n,evensum=0,oddsum=0;
+	printf("enter the no:");
+	scanf("%d",&i);
+	for(n=1;n<=i;n++)
+	{
+		if(n%2==0)
+		{
+		evensum=evensum+n;
+	printf("sum of even no=%d",evensum);
+		}
+		else 
+		oddsum=oddsum+n;
+
+	printf("sum of odd no=%d",oddsum);
+}
+}
